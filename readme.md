@@ -8,7 +8,7 @@ This repository contains a set of APIs created using FastAPI. FastAPI is a moder
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
+- [API Endpoints](#Api-Endpoints)
 
 ## Getting Started
 
@@ -44,17 +44,17 @@ Before you start, make sure you have the following installed:
     uvicorn main:app --reload
 Replace main with the name of your FastAPI app file.
 
-## api-endpoints
-<strong>API Endpoints</strong>
+## Api-Endpoints
+<!-- <h1>API Endpoints</h1> -->
 Here are the API endpoints available in this project:
-<br><h1>Authentication</h1>
+<br><h2>Authentication</h2>
 
 
 <strong>POST</strong><br>
 Use: Login<br>
 Route: /login<br><br>
 
-<strong>Blogs</strong><br>
+<h2>Blogs</h2><br>
 
 
 <strong>GET</strong>
