@@ -30,7 +30,7 @@ Before you start, make sure you have the following installed:
 2. Navigate to the project directory:
 
     ```shell
-    cd fastapi-api-repo
+    cd fastapi_1
 
 3. Install the dependencies:
 
@@ -41,7 +41,7 @@ Before you start, make sure you have the following installed:
    To run the FastAPI application, use the following command:
 
     ```shell
-    uvicorn main:app --reload
+    uvicorn blog.main:app --reload
 Replace main with the name of your FastAPI app file.
 
 ## Api-Endpoints
