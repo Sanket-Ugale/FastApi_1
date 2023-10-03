@@ -47,14 +47,14 @@ Replace main with the name of your FastAPI app file.
 ## Api-Endpoints
 <!-- <h1>API Endpoints</h1> -->
 Here are the API endpoints available in this project:
-<br><h2>Authentication</h2>
+<br><h3>Authentication</h3>
 
 
 <strong>POST</strong><br>
 Use: Login<br>
 Route: /login<br><br>
 
-<h2>Blogs</h2><br>
+<h3>Blogs</h3><br>
 
 
 <strong>GET</strong>
@@ -86,7 +86,7 @@ Use: Destroy Blog<br>
 Route: /blog/{id}<br><br>
 
 
-<h2>Users</h2><br>
+<h3>Users</h3><br>
 
 
 <strong>GET</strong><br>
