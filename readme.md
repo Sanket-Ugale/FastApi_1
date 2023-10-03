@@ -9,9 +9,6 @@ This repository contains a set of APIs created using FastAPI. FastAPI is a moder
   - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -47,68 +44,69 @@ Before you start, make sure you have the following installed:
     uvicorn main:app --reload
 Replace main with the name of your FastAPI app file.
 
+## api-endpoints
 <strong>API Endpoints</strong>
 Here are the API endpoints available in this project:
-<strong>Authentication</strong>
+<br><h1>Authentication</h1>
 
 
-<strong>POST</strong>
-/login
-Login
+<strong>POST</strong><br>
+Use: Login<br>
+Route: /login<br><br>
 
-<strong>Blogs</strong>
-
-
-<strong>GET</strong>
-/blog/
-All
-
-
-
-<strong>POST</strong>
-/blog/
-Create
-
-
-
-<strong>PUT</strong>
-/blog/{id}
-Update
-
+<strong>Blogs</strong><br>
 
 
 <strong>GET</strong>
-/blog/{id}
-Show
+Use: Get All Blogs<br>
+Route: /blog/<br><br>
 
 
 
-<strong>DELETE</strong>
-/blog/{id}
-Destroy
-
-
-<strong>Users</strong>
-
-
-<strong>GET</strong>
-/user/
-All
+<strong>POST</strong><br>
+Use: Create Blog<br>
+Route: /blog/<br><br>
 
 
 
-<strong>POST</strong>
-/user/
-Create User
+<strong>PUT</strong><br>
+Use: Update Blog<br>
+Route: /blog/{id}<br><br>
 
 
 
-<strong>GET</strong>
-/user/{id}
-Show
+<strong>GET</strong><br>
+Use: Show Blog By id<br>
+Route: /blog/{id}<br><br>
 
 
 
-<strong>DELETE</strong>
-/user/{id}
-Destroy
+<strong>DELETE</strong><br>
+Use: Destroy Blog<br>
+Route: /blog/{id}<br><br>
+
+
+<h2>Users</h2><br>
+
+
+<strong>GET</strong><br>
+Use: Show all Users<br>
+Route: /user/<br><br>
+
+
+
+<strong>POST</strong><br>
+Use: Create User<br>
+Route: /user/<br><br>
+
+
+
+<strong>GET</strong><br>
+Use: Show User By id<br>
+Route: /user/{id}<br><br>
+
+
+
+<strong>DELETE</strong><br>
+Use: Delete User<br>
+Route: /user/{id}<br><br>
